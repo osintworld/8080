@@ -11,7 +11,8 @@
   --transition-fast: 0.2s;
 }
 
-
+/*Large Desktop*/
+/*General CSS*/
 
 html {
   scroll-behavior: smooth;
@@ -47,6 +48,7 @@ body {
   border-radius: 50%;
 }
 
+/*Navigation*/
 
 .navigation {
   width: 100%;
@@ -141,6 +143,7 @@ body {
   top: 0;
 }
 
+/*Hero*/
 
 .hero h1 {
   font-size: var(--font-3x-large);
@@ -184,6 +187,7 @@ body {
   color: black;
 }
 
+/*About*/
 .about {
   width: 100%;
   min-height: 300px;
@@ -244,6 +248,7 @@ body {
   object-fit: cover;
 }
 
+/*Testimonials*/
 
 .testimonials {
   min-height: 300px;
@@ -257,11 +262,13 @@ body {
   color: white;
 }
 
+/* Slideshow container */
 .slideshow-container {
   position: relative;
   background: white;
 }
 
+/* Slides */
 .mySlides {
   display: none;
   padding: 80px;
@@ -274,6 +281,7 @@ body {
   margin: 0 auto;
 }
 
+/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -290,17 +298,20 @@ body {
   user-select: none;
 }
 
+/* Position the "next button" to the right */
 .next {
   position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
+/* The dot/bullet/indicator container */
 .dot-container {
   text-align: center;
   padding: 20px;
 }
 
+/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -312,13 +323,13 @@ body {
   transition: background-color 0.6s ease;
 }
 
-
+/* Add a background color to the active dot/circle */
 .active,
 .dot:hover {
   background-color: rgba(153, 255, 187, 1);
 }
 
-
+/*Consulting*/
 .consulting.content {
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -381,6 +392,7 @@ body {
   padding: 15px;
 }
 
+/*Contact*/
 
 .contact {
   min-height: 400px;
@@ -443,6 +455,7 @@ textarea {
   color: black;
 }
 
+/*Footer*/
 .footer {
   min-height: 80px;
   background: #485563;
